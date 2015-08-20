@@ -11,12 +11,15 @@ UEditor for yiiframework------Yii2.0下的百度编辑器小插件
 
 widget('Classname',[]);
 
+例：
 
 <?= $form->field($model, 'comment')->widget('frontend\assets\UeditorWidget',[
+
 /*serverparam为后端PHP配置项，如myuploadpath设置图片上传路径*/
     'serverparam'=>[
         'myuploadpath'=> Yii::getAlias('@web/Uploads/').$model['id'],
     ],
+
 /*options为前端视图JS配置项，如toolbars设置百度编辑器工具栏*/
     'options'=>[
         'focus'=>true,
@@ -30,6 +33,7 @@ widget('Classname',[]);
             'style'=>'height:80px'
         ]
     ]); ?>
+
 
 
 2. yii basic 基础版。
