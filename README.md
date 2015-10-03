@@ -4,7 +4,10 @@ UEditor for yiiframework------Yii2.0下的百度编辑器小插件
 
 使用方法：
 
-1： yii Advanced 高级版。
+
+
+一、 yii Advanced 高级版。
+
 覆盖到 frontend 目录下面，直接使用。
 
 使用方法：
@@ -36,7 +39,12 @@ widget('Classname',[]);
 
 
 
-2. yii basic 基础版。
+
+
+
+
+二、 yii basic 基础版。
+
 
 项目覆盖到根目录。
 
