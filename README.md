@@ -73,8 +73,6 @@ use assets\UeditorWidget;
  * 　　　　　┃┫┫　┃┫┫
  * 　　　　　┗┻┛　┗┻┛
  *
- * 在git@OSC中，@web会被转码。转成@xiaogg。
- * @google，@qq,@163,@webroot,@vendor这些不会吧。
- * ━━━━━━---------------------------------━━━━━━
- */
-  
+ * 在git@OSC中，@web会被转码成@xiaogg。
+ * 
+ * ━━━━━━
