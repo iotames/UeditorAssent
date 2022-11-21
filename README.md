@@ -1,21 +1,22 @@
 
-UEditor for yiiframework------Yii2.0下的百度编辑器小插件
+## UEditor for yiiframework------Yii2.0下的百度编辑器小插件
 
 
-使用方法：
+## 使用方法：
 
 
 
-一、 yii Advanced 高级版。
+1. yii Advanced 高级版。
 
 覆盖到 frontend 目录下面，直接使用。
 
 使用方法：
 
-widget('Classname',[]);
+`widget('Classname',[]);`
 
 例：
 
+```
 <?= $form->field($model, 'comment')->widget('frontend\assets\UeditorWidget',[
 
 /*serverparam为后端PHP配置项，如myuploadpath设置图片上传路径*/
@@ -36,14 +37,14 @@ widget('Classname',[]);
             'style'=>'height:80px'
         ]
     ]); ?>
+```
 
 
 
 
 
 
-
-二、 yii basic 基础版。
+2. yii basic 基础版。
 
 
 项目覆盖到根目录。
@@ -51,15 +52,15 @@ widget('Classname',[]);
 修改 assets 目录下，UeditorWidget 和 UeditorAsset 两个文件的命名空间。
 
 如: 
-frontend\assets\UeditorWidget;
+`frontend\assets\UeditorWidget;`
 改为 
-assets\UeditorWidget;
+`assets\UeditorWidget;`
 
-use frontend\assets\UeditorWidget;
+`use frontend\assets\UeditorWidget;`
 改为 
-use assets\UeditorWidget;
+`use assets\UeditorWidget;`
 
-<?= $form->field($model, 'comment')->widget('assets\UeditorWidget',[]); ?>
+`<?= $form->field($model, 'comment')->widget('assets\UeditorWidget',[]); ?>`
 
 
  * ━━━━━━神兽出没━━━━━━
